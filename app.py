@@ -6,7 +6,7 @@ if root.exists():
     shutil.rmtree(root)
 root.mkdir(parents=True, exist_ok=True)
 
-app_py = r'''import streamlit as st
+app_py = import streamlit as st
 
 # ============================================================
 # MIA'S HAIR & BEAUTY SUPPLY - STREAMLIT CHATBOT WEBSITE
