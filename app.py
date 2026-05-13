@@ -140,13 +140,8 @@ def answer_question(question):
 
     if contains_any(q, ["phone", "contact", "call", "email"]):
         return "You can call us at 860-206-8732 or email miashairbeauty@gmail.com."
-
-   if contains_any(q, ["hour", "hours", "open", "close", "timing", "time"]):
-        return (
-            "Mia's Hair & Beauty Supply store hours are:\n\n"
-            "• Monday to Saturday: 9:00 AM – 7:00 PM\n"
-            "• Sunday: 10:00 AM – 5:00 PM"
-        )
+    if contains_any(q, ["hour" , "hours", "open", "close", "timing", "time "]):
+        return " Monday to Saturday - Store Timings would be 9am - 7pm. On Sunday - Store Timings would be 10am - 5pm"
        
     if contains_any(q, ["return", "refund", "exchange"]):
         return "Unused items may be eligible for return. Opened wigs, sale items, and personal beauty products may not be returnable. You may not get money back, but you will store credit which you can use for further purchases at Mia's Hair Store"
